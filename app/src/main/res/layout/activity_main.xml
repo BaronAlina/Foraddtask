@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Какие принципы лежат в основе ООП. Выберите верные варианты ответов:"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <CheckBox
+        android:id="@+id/chBox"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:text="Конструкция"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <CheckBox
+        android:id="@+id/chBox2"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:text="Полиморфизм"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <CheckBox
+        android:id="@+id/chBox3"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:text="Инкапсуляция"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <CheckBox
+        android:id="@+id/chBox4"
+        android:layout_width="312dp"
+        android:layout_height="47dp"
+        android:text="Наследование"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:text="2. Выберите одно верное утверждение из представленных:"
+        android:textSize="18dp" />
+
+    <RadioGroup
+        android:id="@+id/rG"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="В java невозможна множественная реализация интерфейсов;" />
+
+        <RadioButton
+            android:id="@+id/rB2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ключевое слово interface указывается после имени класса для задания списка реализованных интерфейсов;" />
+
+        <RadioButton
+            android:id="@+id/rB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Если в классе не реализован метод иплементируемого интерфейса, то этот класс должен быть абстрактным;" />
+
+        <RadioButton
+            android:id="@+id/rB4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Implements - это ключевое слово означающее наследование классов;" />
+
+        <!--<RadioButton
+            android:id="@+id/rB5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ключевое слово this нельзя использовать для вызова перегруженного конструктора." /> -->
+    </RadioGroup>
+
+    <!--<TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/> -->
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save and Next page" />
+
+
+</LinearLayout>
